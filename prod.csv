@@ -1,12 +1,12 @@
-brand, product_name, shipping
-MSI, MSI GeForce GTX 1060 DirectX 12 GTX 1060 6G OCV1 Video Card, $4.99 Shipping
-GIGABYTE, GIGABYTE GeForce GTX 1050 Ti DirectX 12 GV-N105TWF2OC-4GD Video Card, $4.99 Shipping
-AMD, AMD Radeon Vega Frontier Edition 100-506061 16GB 2048-bit HBM2 Video Cards - Workstation, $4.99 Shipping
-EVGA, EVGA GeForce GTX 1050 SC GAMING| 02G-P4-6152-KR| 2GB GDDR5| DX12 OSD Support (PXOC), $4.99 Shipping
-ASUS, ASUS ROG GeForce GTX 1060 STRIX-GTX1060-O6G-GAMING Video Card, $4.99 Shipping
-ZOTAC, ZOTAC GeForce GTX 1050 DirectX 12 ZT-P10500A-10L Video Card, $4.99 Shipping
-MSI, MSI GeForce GTX 1050 Ti DirectX 12 GTX 1050 Ti GAMING X 4G Video Card, $4.99 Shipping
-ASUS, ASUS GeForce GTX 1050 PH-GTX1050-2G Video Card, $4.99 Shipping
-GIGABYTE, GIGABYTE Radeon RX 560 DirectX 12 GV-RX560OC-4GD REV2.0 Video Card, $3.99 Shipping
-MSI, MSI Radeon RX 550 DirectX 12 RX 550 AERO ITX 4G OC Video Card, $3.99 Shipping
-ZOTAC, ZOTAC GeForce GTX 1050 Ti DirectX 12 ZT-P10510A-10L Video Card, $4.99 Shipping
+brand, product_name, shipping, core_clock, max_res, display_port, DVI, model_no, item_no 
+MSI, MSI GeForce GTX 1060 DirectX 12 GTX 1060 6G OCV1 Video Card, $4.99 Shipping, 1544 MHz, 1 x DisplayPort 1.4, 1 x DL-DVI-D, 1 x HDMI 2.0, GTX 1060 6GOCV1, N82E16814137095
+GIGABYTE, GIGABYTE GeForce GTX 1050 Ti DirectX 12 GV-N105TWF2OC-4GD Video Card, $4.99 Shipping, 1354 MHz in OC Mode|1328 MHz in Gaming, 7680 x 4320, 1 x DisplayPort 1.4, 1 x Dual-Link DVI-D, GV-N105TWF2OC-4GD, N82E16814125914
+AMD, AMD Radeon Vega Frontier Edition 100-506061 16GB 2048-bit HBM2 Video Cards - Workstation, $4.99 Shipping, AMD, Typical Engine Clock (MHz): 1382|Peak Engine Clock (MHz): 1600, 4096 Stream Processing Units, Half Precision Compute Performance: 26.2 TFLOPS|Single Precision Compute Performance: 13.1 TFLOPS|Double Precision Compute Performance: 819 GFLOPS, 100-506061, N82E16814105073
+EVGA, EVGA GeForce GTX 1050 SC GAMING| 02G-P4-6152-KR| 2GB GDDR5| DX12 OSD Support (PXOC), $4.99 Shipping, 1417 MHz, 7680 x 4320, 1 x DisplayPort 1.4, 1 x Dual-Link DVI-D, 02G-P4-6152-KR, N82E16814487296
+ASUS, ASUS ROG GeForce GTX 1060 STRIX-GTX1060-O6G-GAMING Video Card, $4.99 Shipping, OC mode: 1645 MHz|Gaming mode (Default): 1620 MHz, 7680 x 4320, 2 x Native DisplayPort 1.4, 1 x Native Dual-link DVI-D, STRIX-GTX1060-O6G-Ga, N82E16814126113
+ZOTAC, ZOTAC GeForce GTX 1050 DirectX 12 ZT-P10500A-10L Video Card, $4.99 Shipping, 1354 MHz, 7680 x 4320, 1 x DisplayPort 1.4, 1 x DL-DVI, ZT-P10500A-10L, N82E16814500412
+MSI, MSI GeForce GTX 1050 Ti DirectX 12 GTX 1050 Ti GAMING X 4G Video Card, $4.99 Shipping, 1379 MHz (OC)|1354 MHz (Gaming)|1290 MHz (Silent), 7680 x 4320, 1 x DisplayPort 1.4, DL-DVI-D, GTX1050Ti GAMINGX 4G, N82E16814137054
+ASUS, ASUS GeForce GTX 1050 PH-GTX1050-2G Video Card, $4.99 Shipping, 1354 MHz, 7680 x 4320, 1 x Native DisplayPort 1.4, 1 x Native DVI-D, PH-GTX1050-2G, N82E16814126169
+GIGABYTE, GIGABYTE Radeon RX 560 DirectX 12 GV-RX560OC-4GD REV2.0 Video Card, $3.99 Shipping, OC mode: 1199 MHz |Gaming mode: 1189 MHz, 7680 x 4320, 1 x DisplayPort 1.4, 1 x DL-DVI-D, GV-RX560OC-4GD REV2., N82E16814932014
+MSI, MSI Radeon RX 550 DirectX 12 RX 550 AERO ITX 4G OC Video Card, $3.99 Shipping, 1203 MHz, 1 x DisplayPort 1.4, 1 x DVI-D, 1 x HDMI 2.0, RX550AERO-ITX4GOC150, N82E16814137136
+ZOTAC, ZOTAC GeForce GTX 1050 Ti DirectX 12 ZT-P10510A-10L Video Card, $4.99 Shipping, 1303 MHz, 7680 x 4320, 1 x DisplayPort 1.4, 1 x DL-DVI-D, ZT-P10510A-10L, N82E16814500411

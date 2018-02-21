@@ -19,20 +19,34 @@ page_soup = soup(page_html, "html.parser")
 # Grab all the products
 containers = page_soup.findAll("div", {"class":"item-container"})
 
+# Get features
+features = page_soup.findAll("ul",{"class":"item-features"})
+
 # Open a CSV file
 filename = 'prod.csv'
 f = open(filename,"w") 
 
-headers = "brand, product_name, shipping\n"
+headers = "brand, product_name, shipping, core_clock, max_res, display_port, DVI, model_no, item_no \n"
 
 f.write(headers)
 
-for container in containers[:-1]:
+for (container, feature) in zip(containers[:-1], features):
     brand = container.div.div.a.img["title"]
-    # print(brand)
     product_name = container.findAll("a",{"class":"item-title"})[0].text
-    # print(product_name)
     shipping = container.findAll("li",{"class":"price-ship"})[0].text.strip()
-    # print(shipping)
-    f.write(brand + ", " + product_name.replace(",","|") + ", " + shipping + "\n")
+
+    writeup = brand + ", " + product_name.replace(",","|") + ", " + shipping    
+    lis = feature.findAll("li")
+    for li in lis:
+        try:
+            rm = li.strong.text
+            dt = li.text.replace(rm,"").replace("\n","|").strip()
+        except:
+            dt = " "
+        writeup += ", " + dt 
+    
+    writeup += "\n"
+
+    f.write(writeup)
+
 f.close()
